@@ -6,6 +6,10 @@
 import sys
 from collections import deque
 
+#
+# Functions
+#
+
 def DFS(G, start) :
     stack = deque([start])
     visited = []
