@@ -1,5 +1,6 @@
 #
 # 1260. DFS와 BFS
+# https://www.acmicpc.net/problem/1260
 #
 
 import sys
@@ -31,7 +32,9 @@ def BFS(G, start) :
 
 
 
-
+#
+# Main
+#
 
 
 V, E, start = map(int, sys.stdin.readline().split())
