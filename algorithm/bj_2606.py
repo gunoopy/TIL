@@ -6,6 +6,10 @@
 import sys
 from collections import deque
 
+#
+# Functions
+#
+
 def BFS(G) :
     queue = deque([1])
     visited = []
@@ -16,6 +20,13 @@ def BFS(G) :
             queue.extend(G[node])
 
     print(len(visited) - 1)
+
+
+
+#
+# Main
+#
+
 
 V = int(input())
 E = int(input())
