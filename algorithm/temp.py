@@ -1,10 +1,4 @@
+import sys
 from collections import deque
 
-queue = deque([1,2,3])
-
-ex = []
-
-
-
-queue.extendleft(ex)
-print(queue)
+[[1,2],[3,4]][1][1]
