@@ -19,9 +19,11 @@ def BFS(row, col) :
         if not visited[X][Y] :
             visited[X][Y] = 1
             cnt += 1
+            # 상하좌우 확인
             for i in range(4) :
                 newX = X + dx[i]
                 newY = Y + dy[i]
+                # newX, newY가 범위 내, 집이 있는 곳, 아직 방문 전인 경우
                 if 0 <= newX < N and 0 <= newY < N and G[newX][newY] and not visited[newX][newY] :
                     queue.appendleft((newX, newY))
 
@@ -35,6 +37,8 @@ N = int(input())
 G = []
 visited = [[0]*N for _ in range(N)]
 counts = []
+
+# 상하좌우
 dx = [0,0,1,-1]
 dy = [1,-1,0,0]
 
