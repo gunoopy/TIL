@@ -1,13 +1,15 @@
 # Contents
 
-* `basic`
-  * `CLI`
-  * `git`
-  * `markdown`
-* `web`
-  * `HTML` & `CSS` & `JavaScript`
-  * `SQL`
-  * `Nodejs`
+* algorithm
+  * DFS & BFS
+* basic
+  * CLI
+  * git
+  * markdown
+* web
+  * HTML & CSS & JavaScript
+  * SQL
+  * nodejs
 
 
 
