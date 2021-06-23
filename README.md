@@ -1,7 +1,5 @@
 # Contents
 
-* algorithm
-  * DFS & BFS
 * basic
   * CLI
   * git
